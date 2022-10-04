@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Lead from '../components/Lead'
-import PacoteList from '../components/PacoteList'
 import Testimonials from '../components/Testimonial'
-import styles from '../styles/Home.module.css'
+import About from '../components/About'
+import Info from '../components/Info'
 
 export default function Home() {
   return (
@@ -16,10 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='px-20 bg-[#f2f000] h-screen'>
+      <main className='px-20 pt-8 h-screen'>
         <Header />
         <Hero />
-        <PacoteList />
+        <About/>
+        <Info />
         <Lead />
         <Testimonials />
       </main>

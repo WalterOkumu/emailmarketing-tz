@@ -6,13 +6,13 @@ export default function Hero() {
 
     return(
         <div className="mx-auto max-w-6xl">
-            <div className="flex">
-                <div className="pb-[-32rem] w-1/2">
+            <div className="flex md:flex-row flex-col-reverse">
+                <div className="md:pb-[32rem] md:w-1/2 w-full">
                     <Image src={heroImage} width={1090} height={1000}/>
                 </div>
-                <div className="pt-24 pl-16 w-1/2">
-                    <h1 className="text-5xl font-bold bg-[#f2f000] inline p-2 rounded-md">E-mail Marketing</h1>
-                    <h2 className="text-5xl italic font-thin pt-3">Ganhe descontos e faça a aposta certeira</h2>
+                <div className="mt-[4rem] md:pr-8 md:ml-16 md:w-1/2 w-full pb-8">
+                    <h1 className="text-5xl font-bold bg-[#FBED04] md:inline-block p-2 rounded-md">E-mail Marketing</h1>
+                    <h2 className="text-4xl md:text-left italic font-thin pt-3">Ganhe descontos e faça a aposta certeira</h2>
                     <div className="pt-8">
                         <p className="leading-relaxed text-justify">
                             O marketing por email é o uso do email para promover

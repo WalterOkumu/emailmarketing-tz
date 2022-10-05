@@ -7,15 +7,15 @@ export default function TestimonialItem() {
 
     return(
         <div className="flex flex-row gap-4">
-            <div className="border-2 border-[#f2f000] rounded">
+            <div className="">
                 <Image src={profile} width={150} height={150} className="rounded object-cover"/>
             </div>
-            <div className="self-start">
+            <div className="md:self-start">
                 <p  className="font-bold">José Manel</p>
                 <p className="text-xs text-gray-600">CEO da Blast Enterprise</p>
-                <p className="text-xs w-2/3 pt-1"><span className="text-[#f2f000]">"</span> Lorem ipsum dolor sit amet, 
+                <p className="text-xs w-2/3 pt-1"><span className="text-[#FBED04]">"</span> Lorem ipsum dolor sit amet, 
                     consecterur adipiscing elit,
-                    sed do elusmod tempor<span className="text-[#f2f000]">"</span> 
+                    sed do elusmod tempor<span className="text-[#FBED04]">"</span> 
                 </p>
             </div>
         </div>

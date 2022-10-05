@@ -11,10 +11,10 @@ export default function Info() {
 
     return (
         <section className="flex flex-col justify-center items-center mt-40 mx-auto gap-16 w-3/4">
-            <h3 className="text-3xl font-bold text-center w-1/2">
+            <h3 className="text-3xl font-bold text-center md:w-1/2 w-full">
                 Como fazemos isso?</h3>
 
-            <div className="text-center">
+            <div className="text-center grid md:flex md:flex-row grid-cols-2">
                 <Image src={titulos} width={140} height={330}/>
                 <Image src={segmentacao} width={140} height={330}/>
                 <Image src={design} width={140} height={330}/>

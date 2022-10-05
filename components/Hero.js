@@ -6,7 +6,7 @@ export default function Hero() {
 
     return(
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse gap-16">
+            <div className="flex md:flex-row flex-col-reverse gap-16 md:mt-20">
                 <div className="md:w-1/2 w-full">
                     <Image src={heroImage} width={1090} height={1000}/>
                 </div>

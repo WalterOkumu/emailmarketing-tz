@@ -4,8 +4,8 @@ export default function Header() {
     const logPA = '/logo-pa.png';
 
     return(
-        <header className="flex flex-row justify-between">
-            <Image src={logPA} width={40} height={40} alt='Páginas Amarelas' className="object-contain"/>
+        <header className="flex flex-row justify-start md:pl-10">
+            <Image src={logPA} width={50} height={50} alt='Páginas Amarelas' className="object-contain"/>
         </header>
     )
 };

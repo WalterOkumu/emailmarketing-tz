@@ -2,7 +2,7 @@
 
 export default function Lead() {
     return(
-        <section className="mt-40 mx-auto md:w-2/4 px-4">
+        <section className="mt-40 mx-auto md:w-2/4 px-5">
             <h3 className="text-3xl font-bold text-center">Fill in the fields below to obtain the 
             desired information free of charge</h3>
             <div className="flex flex-col justify-center items-center gap-4 mt-8">

@@ -18,7 +18,7 @@ export default function Lead() {
                     <label htmlFor="empresa" className="font-bold text-sm">Company: </label>
                     <input type='text' name='empresa' id="empresa" className="border w-80"/>
                 </div>
-                <button className="bg-[#FBED04] mt-2 px-8 py-1 rounded font-bold text-sm md:w-auto w-1/2">Submeter</button>
+                <button className="bg-[#FBED04] mt-2 px-8 py-1 rounded font-bold text-sm md:w-auto w-1/2">Submit</button>
             </div>
         </section>
     );

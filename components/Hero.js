@@ -16,7 +16,7 @@ export default function Hero() {
                     <div className="pt-8">
                         <p className="leading-relaxed text-justify">
                             Email marketing is the use of emails to promote 
-                            products or services. But it's not just limited to that. 
+                            products or services. But it&apos;s not just limited to that. 
                             You can use email marketing to develop relationships with 
                             current customers or reach out to potential clients. 
                             This service allows companies to keep their customers 

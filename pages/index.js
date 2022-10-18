@@ -39,7 +39,9 @@ export default function Home() {
           id="element"
         >
         
-            {function ml_webform_success_5786909(){let r=ml_jQuery||jQuery;r(".ml-subscribe-form-5786909 .row-success").show(),r(".ml-subscribe-form-5786909 .row-form").hide()}}
+            {
+              function ml_webform_success_5795093(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-5795093 .row-success").show(),r(".ml-subscribe-form-5795093 .row-form").hide()}
+            }
         </Script>
     </div>
   )

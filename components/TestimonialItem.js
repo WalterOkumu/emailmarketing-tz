@@ -8,7 +8,7 @@ export default function TestimonialItem() {
     return(
         <div className="flex flex-row gap-4">
             <div className="">
-                <Image src={profile} width={150} height={150} className="rounded object-cover"/>
+                <Image src={profile} width={150} height={150} className="rounded object-cover" alt="Profile"/>
             </div>
             <div className="md:self-start">
                 <p  className="font-bold">José Manel</p>

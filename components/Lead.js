@@ -46,20 +46,24 @@ export default function Lead() {
                             <input type="hidden" name="ml-submit" value="1" />
                             <div className="ml-form-embedSubmit">
                                 <button type="submit" className="primary">Submit</button>
-                                <button disabled="disabled" style={{display:'none'}} type="button" className="loading"> <div className="ml-form-embedSubmitLoad"></div> <span className="sr-only">Loading...</span> </button>
+                                <button disabled="disabled" style={{display:"none"}} type="button" className="loading"> <div className="ml-form-embedSubmitLoad"></div> <span className="sr-only">Loading...</span> </button>
                             </div>
                             <input type="hidden" name="anticsrf" value="true" />
                             </form>
                         </div>
-                        <div className="ml-form-successBody row-success" style={{display:'none'}}>
+                        <div className="ml-form-successBody row-success" style={{display:"none"}}>
                             <div className="ml-form-successContent">
-                            <h4>Thank you!</h4>
-                            <p>We will send your proposal as soon as possible.</p>
+                                <h4>Thank you!</h4>
+                                <p>We will send your proposal as soon as possible.</p>
                             </div>
                         </div>
                         </div>
                     </div>
-                    </div>
+        </div>
+           {/* <div class="ml-form-embed"
+                data-account="3897995:m7g9o3p2y5"
+                data-form="5795093:l2h1b5">
+        </div>*/}
         </section>
     );
 }

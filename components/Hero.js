@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="mx-auto max-w-6xl">
             <div className="flex md:flex-row flex-col-reverse gap-16 md:mt-20">
                 <div className="md:w-1/2 w-full">
-                    <Image src={heroImage} width={1090} height={1000}/>
+                    <Image src={heroImage} width={1090} height={1000} alt="Marketing woman"/>
                 </div>
                 <div className="mt-[4rem] md:w-1/2 w-full">
                     <h1 className="text-5xl font-bold bg-[#FBED04] md:inline-block p-2 rounded-md">E-mail Marketing</h1>

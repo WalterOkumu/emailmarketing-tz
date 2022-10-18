@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Info() {
 
-    const titulos = '/titulos.png';
-    const segmentacao = '/segmentacao.png';
+    const titles = '/titles.png';
+    const segmentation = '/segmentation.png';
     const design = '/design.png';
-    const otimizacao = '/otimizacao.png';
-    const paginaDestino = '/pagina-destino.png'
-    const chamada = '/chamada.png';
+    const optimization = '/optimization.png';
+    const callAction = '/call_action.png'
+    const effective = '/effective.png';
 
     return (
         <section className="flex flex-col justify-center items-center mt-40 mx-auto gap-16 w-3/4">
@@ -15,12 +15,12 @@ export default function Info() {
                 How do we do it?</h3>
 
             <div className="text-center grid md:flex md:flex-row grid-cols-2">
-                <Image src={titulos} width={140} height={330}/>
-                <Image src={segmentacao} width={140} height={330}/>
-                <Image src={design} width={140} height={330}/>
-                <Image src={otimizacao} width={140} height={330}/>
-                <Image src={paginaDestino} width={140} height={330}/>
-                <Image src={chamada} width={140} height={330}/>
+                <Image src={segmentation} width={140} height={330} alt="Segmentation section"/>
+                <Image src={titles} width={140} height={330} alt="Titles section"/>
+                <Image src={optimization} width={140} height={330} alt="Optimization section"/>
+                <Image src={design} width={140} height={330} alt="Design section"/>
+                <Image src={callAction} width={140} height={330} alt="Call to Action section"/>
+                <Image src={effective} width={140} height={330} alt="Effective section"/>
             </div>
         </section>
     );

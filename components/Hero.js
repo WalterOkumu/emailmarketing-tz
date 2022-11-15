@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Lead from "./Lead";
 
 export default function Hero() {
 
@@ -6,10 +7,17 @@ export default function Hero() {
 
     return(
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse gap-16 md:mt-20 text-[#f8f8ff]">
+
+            <div className="flex md:flex-row flex-col-reverse gap-1 md:gap-16 md:mt-20 text-[#f8f8ff]">
+                
+                    <Lead />
+
                 <div className="md:w-1/2 w-full">
                     <Image src={heroImage} width={1090} height={1000} alt="Black Friday"/>
+
                 </div>
+
+                {/* 
                 <div className="mt-[4rem] md:w-1/2 w-full">
                     <h1 className="text-5xl font-bold bg-[#FBED04] md:inline-block p-2 rounded-md text-[#070707]">Email Marketing</h1>
                     <h2 className="text-4xl md:text-left italic font-light pt-3">Fanya biashara yako iwafikie watu wengi zaidi kupitia barua pepe</h2>
@@ -20,6 +28,7 @@ export default function Hero() {
                         </p>
                     </div>
                 </div>
+            */}
             </div>
         </div>
     );

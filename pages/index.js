@@ -16,14 +16,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='pb-10'>
-        <div className='pt-8 md:h-screen px-10 bg-[#181818]'>
+      <main className='pb-10 '>
+        <div className='pt-8 md:h-screen px-10 bg-[#181818] pb-20 md:pb-0'>
           <Header />
           <Hero />
         </div>
         <About />
         <Info />
-        <Lead />
         <Testimonials />
       </main>
 

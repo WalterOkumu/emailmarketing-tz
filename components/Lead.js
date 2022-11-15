@@ -2,10 +2,11 @@
 
 export default function Lead() {
     return(
-        <section className="mt-40 mx-auto md:w-2/4 px-5">
-            <h3 className="text-3xl mb-12 font-bold text-center">
-                Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo
-            </h3>
+        <section className="mt-16 mx-auto md:w-2/4 px-5">
+            <h3 className="text-3xl mb-12 font-bold text-left pl-5">
+                Preencha o formulário para receber as informações gratuitamente
+            </h3> 
+
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
                     <label htmlFor="nome" className="font-bold text-sm">Name: </label>
@@ -21,6 +22,7 @@ export default function Lead() {
                 </div>
                 <button className="bg-[#FBED04] mt-2 px-8 py-1 rounded font-bold text-sm md:w-auto w-1/2">Submit</button>
             </div>*/}
+
             <div id="mlb2-5795093" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5795093">
                     <div className="ml-form-align-center">
                         <div className="ml-form-embedWrapper embedForm">

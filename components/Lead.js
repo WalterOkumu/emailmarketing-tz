@@ -4,7 +4,7 @@ export default function Lead() {
     return(
         <section className="mt-16 mx-auto md:w-2/4 px-5">
             <h3 className="text-3xl mb-12 font-bold text-left pl-5">
-                Preencha o formulário para receber as informações gratuitamente
+                Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo
             </h3> 
 
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">

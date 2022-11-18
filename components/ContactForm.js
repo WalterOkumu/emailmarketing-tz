@@ -1,13 +1,9 @@
-
-
-export default function Lead() {
+export default function ContactForm() {
     return(
-        <section className="mt-5 mb-10 mx-auto md:w-2/4 px-5">
-            <h3 className="text-5xl mb-8 font-bold text-left pl-5">
-                Fanya biashara yako iwafikie watu wengi zaidi kupitia barua pepe
+        <section className="mt-16 mx-auto md:w-2/4 px-5">
+            <h3 className="text-3xl mb-12 font-bold text-left pl-5">
+                Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo
             </h3> 
-
-            <h2 className="pl-5"> Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo </h2>
 
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
@@ -70,5 +66,6 @@ export default function Lead() {
                 data-form="5795093:l2h1b5">
         </div>*/}
         </section>
+
     );
 }

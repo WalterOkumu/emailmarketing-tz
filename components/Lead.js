@@ -4,7 +4,7 @@ export default function Lead() {
     return(
         <section className="mt-5 mb-10 mx-auto md:w-2/4 px-5">
             <h3 className="text-5xl mb-8 font-bold text-left pl-5 text-[#FDEA03]">
-                Fanya biashara yako iwafikie watu wengi zaidi kupitia barua pepe
+                Fanya biashara yako iwafikie watu wengi zaidi kupitia barua pepe!
             </h3> 
 
             <h2 className="pl-5"> Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo </h2>

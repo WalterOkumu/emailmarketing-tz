@@ -4,7 +4,7 @@ export default function About() {
 
 
             <div className="md:mt-[1rem] md:w-1/2 w-full text-center">
-                    <h1 className="text-7xl font-bold md:inline-block p-2 rounded-md text-[#070707]">Email Marketing</h1>
+                    <h1 className="text-5xl font-bold md:inline-block p-2 rounded-md text-[#070707]">Email Marketing</h1>
                     <h2 className="text-4xl md:text-left italic font-light pt-3 md:px-0 px-16">Fanya biashara yako iwafikie watu wengi zaidi kupitia barua pepe</h2>
                     <div className="pt-8">
                         <p className="leading-relaxed text-justify md:px-0 px-14">

@@ -1,6 +1,6 @@
 export default function ContactForm() {
     return(
-        <section className="mt-16 mx-auto md:w-2/4 px-5">
+        <section className="mt-32 mx-auto md:w-2/4 px-5">
             <h3 className="text-3xl mb-12 font-bold text-left pl-5">
                 Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo
             </h3> 

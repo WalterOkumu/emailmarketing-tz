@@ -5,7 +5,7 @@ export default function Header() {
 
     return(
         <header className="flex flex-row justify-start md:pl-10">
-            <Image src={logPA} width={50} height={50} alt='Páginas Amarelas' className="object-contain"/>
+            <Image src={logPA} width={80} height={80} alt='Páginas Amarelas' className="object-contain"/>
         </header>
     )
 };

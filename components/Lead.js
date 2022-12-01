@@ -2,13 +2,11 @@
 
 export default function Lead() {
     return(
-        <section className="mt-5 mb-10 mx-auto md:w-2/4 px-5">
-            <h3 className="text-5xl mb-8 font-bold text-left pl-5 text-[#FDEA03]">
-                Fanya biashara yako iwafikie watu wengi zaidi kupitia barua pepe!
-            </h3> 
-
-            <h2 className="pl-5"> Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo </h2>
-
+        <section className="mt-8 mx-auto">
+            <h2 className="md:text-5xl text-3xl mb-2 font-bold text-center md:text-left text-[#FDEA03]"> Fanya biashara yako iwafikie watu wengi zaidi kupitia barua pepe! </h2>
+            <h3 className="text-base text-center md:text-left mb-3">
+                Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo 
+            </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
                     <label htmlFor="nome" className="font-bold text-sm">Name: </label>
@@ -24,7 +22,6 @@ export default function Lead() {
                 </div>
                 <button className="bg-[#FBED04] mt-2 px-8 py-1 rounded font-bold text-sm md:w-auto w-1/2">Submit</button>
             </div>*/}
-
             <div id="mlb2-5795093" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5795093">
                     <div className="ml-form-align-center">
                         <div className="ml-form-embedWrapper embedForm">
@@ -69,7 +66,7 @@ export default function Lead() {
                         </div>
                         </div>
                     </div>
-        </div>
+                </div>
            {/* <div class="ml-form-embed"
                 data-account="3897995:m7g9o3p2y5"
                 data-form="5795093:l2h1b5">
